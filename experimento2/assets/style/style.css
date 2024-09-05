@@ -1,0 +1,54 @@
+/*
+    Experimento 2.
+    - Cambiar el tamaño de los texto.
+    - Aumentar y disminuir el tamaño de la fuente por medio de botones.
+    - Ejemplo extraído de https://www.senadis.gob.cl/ 
+*/
+
+*{
+    padding: 1em;
+    margin: 0;
+    border: 1px solid black
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.btn{
+    background: blue;
+    color: white;
+    font-size: 1em;
+    transition: background 0.5s ease-in;
+}
+
+.btn:hover{
+    background: linear-gradient(to right, #9fccfa, #0974f1);
+}
+
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.section__title{
+    font-size: 32px;
+}
+
+.section__subtitle{
+    font-size: 26px;
+}
+
+.section__text{
+    max-width: 50ch;
+    font-size: 16px;
+}
+
+.section__img{
+    width: 300px;
+}

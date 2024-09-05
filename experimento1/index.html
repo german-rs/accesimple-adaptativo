@@ -1,3 +1,11 @@
+<!-- 
+
+    Experimento 1.
+    - Posicionamiento del botón. 
+    - Visibilidad del Menú de accesibilidad.
+        - Con combinación de teclas (Crt + a) y uso del puntero.
+
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,15 +15,32 @@
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/899edd289a.js" crossorigin="anonymous"></script>
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
     <title>Experimento 1.</title>
 </head>
 <body>
     <header class="header">
     </header>
+
+    <!--
+
+        Componentes de accesibilidad.
+
+    -->
     <div class="componente__accesibilidad">
         <i class="fa-solid fa-wheelchair-move fa-3x"></i>
     </div>
+    <div class="menu__accesibilidad">
+        <div>
+            <i class="cerrar__menu fa-solid fa-xmark fa-2x"></i>
+        </div>
+    </div>
+
+    <!--
+
+        Fin componentes de accesibilidad.
+
+    -->
     <main class="main">
         <h1 class="header__title">Título del sitio</h1>
         <section class="section">
@@ -36,9 +61,17 @@
             </article>
         </section>
     </main>
-    <section class="section__test">
+    <section class="section__images">
         <h2>Otra sección del sitio</h2>
+        <div class="section__img-container">
+            <div class="box__img">
+                <img class="img__sogo" src="./assets/img/sogo1.jpg" alt="botón sogo">
+            </div>
+            <div class="box__img">
+                <img class="img__sogo" src="./assets/img/sogo2.jpg" alt="sogo menú">
+            </div>
+        </div>
     </section>
-    <script src="./script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

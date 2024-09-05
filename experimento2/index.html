@@ -1,0 +1,41 @@
+<!--
+    Experimento 2.
+    - Cambiar el tamaño de los texto.
+    - Aumentar y disminuir el tamaño de la fuente por medio de botones.
+    - Ejemplo extraído de https://www.senadis.gob.cl/ 
+ -->
+
+<!DOCTYPE html>
+<!-- Español. -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./assets/style/style.css">   
+    <title>Experimento 2.</title>
+</head>
+<body>
+    <header class="header">
+
+        <!-- Componentes accesibilidad. -->
+        <button class="btn btn__disminuir">-a</button>
+        <button class="btn btn__regular">a</button>
+        <button class="btn btn__aumentar">+A</button>
+        <!-- Fin componentes accesibilidad. -->
+
+    </header>
+    <section class="section">
+        <h1 class="section__title">PAUTAS DE ACCESIBILIDAD PARA EL CONTENIDO WEB</h1>
+        <h2 class="section__subtitle">Principio 1. Perceptible</h2>
+        <p class="section__text">
+            El contenido de la página debe ser legible y funcional cuando se 
+            dobla el tamaño del texto. Se recomienda comprobar que el texto 
+            puede ser ampliado hasta un 200%, además de ofrecer la alternativa 
+            de aumentar o disminuir el tamaño del texto ofreciendo al usuario 
+            herramientas de accesibilidad.
+        </p>
+        <img class="section__img" src="./assets/img/senadis.jpg" alt="Botones para el cambio de tamaño">
+        <script src="./assets/js/script.js"></script>
+    </section>
+</body>
+</html>

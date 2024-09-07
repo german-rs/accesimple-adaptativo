@@ -15,6 +15,9 @@ Creando un sitio web accesible, información de la [W3C](https://www.w3.org/).
 - [Enlace](https://www.w3.org/WAI/gettingstarted/Overview.html.es) 
 - [Sitio para hispano parlantes](https://chapters.w3.org/hispano/)
 
+Lineamiento de Google Material Design 3
+- [Enlace](https://m3.material.io/foundations/overview/principles)
+
 Validadores y herramientas para consultorías de accesibilidad y usabilidad web.
 - [Enlace](https://www.usableyaccesible.com/recurso_misvalidadores.php)
 

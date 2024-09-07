@@ -28,3 +28,37 @@ btnAumentar.addEventListener('click', function () {
         console.log('El tamaño máximo del 200% ha sido alcanzado.');
     }   
 });
+
+
+btnRegular.addEventListener('click', function(){
+
+    let tamanioActual = parseInt(window.getComputedStyle(texto).fontSize);
+    let tamanioOriginalNum = parseInt(tamanioOriginal);
+
+    console.log(`tamaño original (btnRegular): ${tamanioOriginalNum}`);
+    console.log(`tamaño actual (btnRegular): ${tamanioActual}`);
+    
+    if(tamanioActual > tamanioOriginalNum){
+        texto.style.fontSize = tamanioOriginalNum + 'px';
+    }else{
+        console.log(`El texto tiene su tamaño original`);
+    }
+});
+
+btnDisminuir.addEventListener('click', function(){
+
+    let tamanioActual = parseInt(window.getComputedStyle(texto).fontSize);
+    let tamanioOriginalNum = parseInt(tamanioOriginal);
+
+    console.log(`tamaño original (btnDisminuir): ${tamanioOriginalNum}`);
+    console.log(`tamaño actual (btnDisminuir): ${tamanioActual}`);    
+
+    if(tamanioActual > tamanioOriginalNum){
+        let nuevoTamanio = (tamanioActual - 4) + 'px';
+        console.log(`nuevo tamaño (btnDisminuir): ${nuevoTamanio}`); 
+        texto.style.fontSize = nuevoTamanio;
+    }else{
+        console.log(`El texto tiene su tamaño original`);
+    }
+
+});

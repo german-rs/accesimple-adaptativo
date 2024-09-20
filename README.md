@@ -19,6 +19,9 @@ Creando un sitio web accesible, información de la [W3C](https://www.w3.org/).
 Lineamiento de Google Material Design 3
 - [Enlace](https://m3.material.io/foundations/overview/principles)
 
+Microsoft Inclusive Design
+- [Presiona para ir al sitio](https://inclusive.microsoft.design) 
+
 Validadores y herramientas para consultorías de accesibilidad y usabilidad web.
 - [Enlace](https://www.usableyaccesible.com/recurso_misvalidadores.php)
 

@@ -34,10 +34,16 @@ body.dark-mode {
     align-items: center;
     text-align: center;
     gap: 1em;
+    background-color: #0077b6;
+}
+
+.principal__header{
+    background-color: #caf0f8;
 }
 
 .principal__texto{
     width: 70ch;
+    background-color: #90e0ef;
 }
 
 .seccion{
@@ -47,22 +53,43 @@ body.dark-mode {
     justify-content: center;
     align-items: center;
     gap: 1em;
+    background-color: #00b4d8;
+}
+
+.seccion__title{
+    background-color: #caf0f8;
 }
 
 .seccion__texto{
     width: 60ch;
+    background-color: #90e0ef;
 }
 
 .menu__accesibilidad{
     position: fixed;
+    z-index: 1;
     bottom: 2%;
     left: 50%;
     transform: translateX(-50%);
     width: 400px;
     height: 200px;
-
+    background-color: rgba(3, 4, 80, 0.8);
+    color: #FFF;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.menu__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.gray-scale {
+    filter: grayscale(100%);
+  }

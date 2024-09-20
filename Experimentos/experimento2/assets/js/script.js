@@ -6,150 +6,94 @@
     - Ejemplo extraído de https://www.senadis.gob.cl/ 
 */
 
+
+// Seleccionamos todos los elementos de texto relevantes en el documento.
 const elementosDeTexto = document.querySelectorAll('a, p, span, h1, h2, h3, h4, h5, h6, li');
-const tamaniosDeFuentes = [];
 
+// Array para almacenar los elementos y sus tamaños originales.
+const tamaniosOriginales = [];
+
+// Recorremos cada elemento de texto para guardar su tamaño de fuente original.
 elementosDeTexto.forEach(elemento => {
-
+    // Obtenemos el tamaño de fuente actual del elemento.
     const tamanioDeFuente = window.getComputedStyle(elemento).fontSize;
-    tamaniosDeFuentes.push({ elemento: elemento.tagName, tamanioDeFuente: tamanioDeFuente });
+    // Almacenamos el elemento y su tamaño de fuente original en el array.
+    tamaniosOriginales.push({ elemento: elemento, tamanioDeFuente: parseInt(tamanioDeFuente) });
 });
 
-console.log(tamaniosDeFuentes);
+// Imprimimos el array con los tamaños originales para verificar.
+console.log(tamaniosOriginales);
 
-let etiquetas = [];
-let tamaniosOriginales = [];
-
-for (let i = 0; i < tamaniosDeFuentes.length; i++) {
-    const item = tamaniosDeFuentes[i];
-    console.log(`Elemento: ${item.elemento}, Tamaño de Fuente: ${item.tamanioDeFuente}`);
-    etiquetas[i] = item.elemento;
-    tamaniosOriginales[i] = parseInt(item.tamanioDeFuente);
-}
-
-//Revisando elementos extraidos.
-
-for (const etiqueta of etiquetas) {
-    console.log(`Etiquetas: ${etiqueta}`);
-}
-
-for (const tamanio of tamaniosOriginales) {
-    console.log(`Tamaño: ${tamanio}`);
-}
-
-
-//Funcionalidad de los botones.
-
+// Seleccionamos los botones que usaremos para cambiar el tamaño del texto.
 const btnDisminuir = document.querySelector('.btn__disminuir');
-const btnRegular = document.querySelector('.btn__regular');
+const btnRestaurar = document.querySelector('.btn__restaurar');
 const btnAumentar = document.querySelector('.btn__aumentar');
 
+// Agregamos un evento al botón "Restaurar" para volver a los tamaños originales.
+btnRestaurar.addEventListener('click', () => {
+    tamaniosOriginales.forEach(item => {
+        // Extraemos el elemento y su tamaño original del array.
+        let elemento = item.elemento;
+        let tamanioOriginal = item.tamanioDeFuente;
 
-
-//Pendiente. Falta que reconozca tamaños originales.
-btnRegular.addEventListener('click', () => {
-
-    etiquetas.forEach(etiqueta => {
-
-        let elementos = document.getElementsByTagName(etiqueta);
-
-        elementos = Array.from(elementos);
-
-        for (let i = 0; i < elementos.length; i++) {
-
-            let tamanioActual = parseInt(window.getComputedStyle(elementos[i]).fontSize);
-            console.log('tamaño actual: ' + tamanioActual);
-            console.log('tamaño original:' + tamaniosOriginales[i]);
-
-            if (tamanioActual[i] > tamaniosOriginales[i]) {
-                elementos[i].style.fontSize = tamaniosOriginales[i] + 'px';
-            } else {
-                console.log('El texto tiene su tamaño original');
-            }
-
-        }
-
-    })
-});
-
-
-
-// const texto = document.querySelector('.section__text');
-// let tamanioOriginal = window.getComputedStyle(texto).fontSize;
-// let tamanioMaximo = (parseInt(tamanioOriginal) * 2);
-
-// btnRegular.addEventListener('click', () => {
-
-//     let tamanioActual = parseInt(window.getComputedStyle(texto).fontSize);
-//     let tamanioOriginalNum = parseInt(tamanioOriginal);
-
-//     console.log(`tamaño original (btnRegular): ${tamanioOriginalNum}`);
-//     console.log(`tamaño actual (btnRegular): ${tamanioActual}`);
-
-//     if(tamanioActual > tamanioOriginalNum){
-//         texto.style.fontSize = tamanioOriginalNum + 'px';
-//     }else{
-//         console.log(`El texto tiene su tamaño original`);
-//     }
-// });
-
-
-//Pendiente. falta asignar un valor máximo de crecimiento.
-btnAumentar.addEventListener('click', () => {
-
-    etiquetas.forEach(etiqueta => {
-
-        let elementos = document.getElementsByTagName(etiqueta);
-
-        elementos = Array.from(elementos);
-
-        elementos.forEach(elemento => {
-
-            let tamanioOriginal = window.getComputedStyle(elemento).fontSize;
-            let tamanioNumerico = parseInt(tamanioOriginal);
-            let nuevoTamanio = (tamanioNumerico + 2) + 'px';
-            elemento.style.fontSize = nuevoTamanio;
-        });
-
+        // Restauramos el tamaño original del elemento.
+        elemento.style.fontSize = tamanioOriginal + 'px';
+        // Imprimimos un mensaje para confirmar la restauración del tamaño.
+        console.log(`Restaurando ${elemento.tagName} a su tamaño original: ${tamanioOriginal}px`);
     });
 });
 
+// Agregamos un evento al botón "Aumentar" para incrementar el tamaño del texto.
+btnAumentar.addEventListener('click', () => {
+    tamaniosOriginales.forEach(item => {
+        // Extraemos el elemento y su tamaño original del array.
+        let elemento = item.elemento;
+        let tamanioOriginal = item.tamanioDeFuente;  // Tamaño original del elemento.
+        // Obtenemos el tamaño actual del elemento
+        let tamanioActual = parseInt(window.getComputedStyle(elemento).fontSize);
 
-// btnAumentar.addEventListener('click',  () => {
+        // Calculamos el nuevo tamaño aumentando 2px.
+        let nuevoTamanio = tamanioActual + 2;
+        // Calculamos el tamaño máximo permitido (200% del tamaño original).
+        let tamanioMaximo = tamanioOriginal * 2;
 
-//     let tamanioActual = window.getComputedStyle(texto).fontSize;
-//     let tamanioNumerico = parseInt(tamanioActual);
-//     console.log(`tamaño máximo: ${tamanioMaximo}`);
+        // Verificamos si el nuevo tamaño no supera el límite del 200%.
+        if (nuevoTamanio <= tamanioMaximo) {
+            // Si está dentro del límite, aplicamos el nuevo tamaño.
+            elemento.style.fontSize = nuevoTamanio + 'px';
+            // Imprimimos un mensaje para confirmar el aumento del tamaño.
+            console.log(`Aumentando ${elemento.tagName} a: ${nuevoTamanio}px (máximo permitido: ${tamanioMaximo}px)`);
+        } else {
+            // Si supera el límite, imprimimos un mensaje indicando que se alcanzó el máximo.
+            console.log(`El ${elemento.tagName} ya ha alcanzado el máximo de 200% (${tamanioMaximo}px)`);
+        }
+    });
+});
 
-//     if (tamanioNumerico < tamanioMaximo) {
-//         // let nuevoTamanio = (tamanioNumerico * 1.25) + 'px';
-//         let nuevoTamanio = (tamanioNumerico + 4) + 'px';
-//         texto.style.fontSize = nuevoTamanio;
+// Agregamos un evento al botón "Disminuir" para reducir el tamaño del texto.
+btnDisminuir.addEventListener('click', () => {
+    // Recorremos cada elemento guardado en el array tamaniosOriginales.
+    tamaniosOriginales.forEach(item => {
+        // Extraemos el elemento y su tamaño original del array.
+        let elemento = item.elemento;
+        let tamanioOriginal = item.tamanioDeFuente;  // Tamaño original del elemento.
+        // Obtenemos el tamaño actual del elemento.
+        let tamanioActual = parseInt(window.getComputedStyle(elemento).fontSize);
 
-//         console.log('Nuevo tamaño:', texto.style.fontSize);
-//         console.log('Tamaño anterior:', tamanioActual);
-//     } else {
-//         console.log('El tamaño máximo del 200% ha sido alcanzado.');
-//     }   
-// });
+        // Calculamos el nuevo tamaño disminuyendo 2px.
+        let nuevoTamanio = tamanioActual - 2;
 
-
-
-
-// btnDisminuir.addEventListener('click', () => {
-
-//     let tamanioActual = parseInt(window.getComputedStyle(texto).fontSize);
-//     let tamanioOriginalNum = parseInt(tamanioOriginal);
-
-//     console.log(`tamaño original (btnDisminuir): ${tamanioOriginalNum}`);
-//     console.log(`tamaño actual (btnDisminuir): ${tamanioActual}`);    
-
-//     if(tamanioActual > tamanioOriginalNum){
-//         let nuevoTamanio = (tamanioActual - 4) + 'px';
-//         console.log(`nuevo tamaño (btnDisminuir): ${nuevoTamanio}`); 
-//         texto.style.fontSize = nuevoTamanio;
-//     }else{
-//         console.log(`El texto tiene su tamaño original`);
-//     }
-
-// });
+        // Verificamos si el nuevo tamaño no es menor que el tamaño original.
+        if (nuevoTamanio >= tamanioOriginal) {
+            // Si el nuevo tamaño es válido (no menor al original), aplicamos el nuevo tamaño.
+            elemento.style.fontSize = nuevoTamanio + 'px';
+            // Imprimimos un mensaje para confirmar la disminución del tamaño.
+            console.log(`Disminuyendo ${elemento.tagName} a: ${nuevoTamanio}px (tamaño original: ${tamanioOriginal}px)`);
+        } else {
+            // Si el nuevo tamaño es menor al tamaño original, mantenemos el tamaño original.
+            elemento.style.fontSize = tamanioOriginal + 'px';
+            // Imprimimos un mensaje indicando que se ha alcanzado el tamaño original.
+            console.log(`El ${elemento.tagName} ya ha alcanzado el tamaño original (${tamanioOriginal}px)`);
+        }
+    });
+});

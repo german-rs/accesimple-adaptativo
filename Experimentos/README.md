@@ -4,7 +4,7 @@
 
 ### Descripción:
 
-La propósito de los experimentos es para desarrollar finalmente un plugin que ayude a las personas y empresas a optimizar la accesibilidad de sus sitios web, inspirado en soluciones como [Userway](https://userway.org/). Esta herramienta permite mejorar la experiencia de navegación y facilita el acceso a información para todos los usuarios, independientemente de sus capacidades.
+El propósito de los experimentos es desarrollar finalmente un plugin que ayude a las personas y empresas a optimizar la accesibilidad de sus sitios web, inspirado en soluciones como [Userway](https://userway.org/). Esta herramienta permitirá mejorar la experiencia de navegación y facilitar el acceso a información para todos los usuarios, independientemente de sus capacidades.
 
 |Experimentos realizados | Descripción|
 |------------------------|------------|
@@ -55,7 +55,7 @@ A continuación se presentan las siguientes herramientas, junto a sus funcionali
 - Desactivar tooltips.
 
 ### SOGO
-- Blanco y negro.
+- ~~Blanco y negro~~.
 - Contraste oscuro.
 - Contraste blanco.
 - Detener movimientos.

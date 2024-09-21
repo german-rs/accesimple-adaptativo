@@ -4,7 +4,7 @@
 
 ### Descripción:
 
-El propósito de los experimentos es desarrollar finalmente un plugin que ayude a las personas y empresas a optimizar la accesibilidad de sus sitios web, inspirado en soluciones como [Userway](https://userway.org/). Esta herramienta permitirá mejorar la experiencia de navegación y facilitar el acceso a información para todos los usuarios, independientemente de sus capacidades.
+El propósito de los experimentos es desarrollar finalmente un plugin que ayude a las personas y empresas a optimizar la accesibilidad de sus sitios web, inspirado en soluciones como [Userway](https://userway.org/). Esta herramienta brindará una experiencia de navegación más inclusiva y accesible, poniendo la información al alcance de todos, sin importar sus habilidades.
 
 |Experimentos realizados | Descripción|
 |------------------------|------------|

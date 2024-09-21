@@ -1,8 +1,8 @@
 # Experimentos
 
-## Complemento adaptativo de accesibilidad Web ![logo](./imagenes/logo.webp)
+## Complemento adaptativo de accesibilidad Web 
 
-
+![logo](./imagenes/logo.webp)
 
 ### Descripción:
 

@@ -1,6 +1,7 @@
 <!--
     Experimento 3.
     - Modo claro y oscuro.
+    - Escala de grises.
  -->
 
 <!DOCTYPE html>
@@ -14,49 +15,47 @@
 </head>
 
 <body>
+    <main class="principal">
+        <header class="principal__header">
+            <h1 class="principal__titulo">PRINCIPIO 1.: PERCEPTIBLE</h1>
+        </header>
+        <p class="principal__texto">
+            La información y los componentes de la interfaz de usuario deben ser presentados
+            a los usuarios de modo que ellos puedan percibirlos. El sitio Web debe ser
+            percibido por sentidos como la visión y la audición, considerando aspectos como
+            audio, texto y tamaño de fuente, contraste de colores, entre otros.
+        </p>
+    </main>
 
-    <body>
-        <section class="menu__accesibilidad">
-            <div class="menu__container">
-                <label for="">Modo claro/oscuro
-                    <input type="checkbox" id="modeToggle">
-                </label>
-                <label for="gray-scale-checkbox" class="checkbox-label">
-                    Activar Escala de Grises
-                    <input type="checkbox" id="gray-scale-checkbox" class="checkbox">  
-                </label>
-            </div>
-        </section>
-        <main class="principal">
-            <header class="principal__header">
-                <h1 class="principal__titulo">PRINCIPIO 1.: PERCEPTIBLE</h1>
-            </header>
-            <p class="principal__texto">
-                La información y los componentes de la interfaz de usuario deben ser presentados
-                a los usuarios de modo que ellos puedan percibirlos. El sitio Web debe ser
-                percibido por sentidos como la visión y la audición, considerando aspectos como
-                audio, texto y tamaño de fuente, contraste de colores, entre otros.
-            </p>
-        </main>
+    <section class="seccion">
+        <h3 class="seccion__title">Contraste</h3>
+        <p class="seccion__texto">
+            No se recomienda el uso de imágenes como fondo de un texto, a menos que cumpla
+            con el nivel de contraste mínimo establecido en las Pautas de Accesibilidad 2.0.
+            Así como tampoco, los textos con texturas o transparencia como fondo.
+        </p>
+        <p class="seccion__texto">
+            Las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 recomiendan para
+            la presentación visual de texto e imágenes de texto una relación de contraste
+            de, al menos, 4.5:1.
+        </p>
+        <img src="./assets/img/sogo.jpg" alt="">
+    </section>
 
-        <section class="seccion">
-            <h3 class="seccion__title">Contraste</h3>
-            <p class="seccion__texto">
-                No se recomienda el uso de imágenes como fondo de un texto, a menos que cumpla
-                con el nivel de contraste mínimo establecido en las Pautas de Accesibilidad 2.0.
-                Así como tampoco, los textos con texturas o transparencia como fondo.
-            </p>
-            <p class="seccion__texto">
-                Las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0 recomiendan para
-                la presentación visual de texto e imágenes de texto una relación de contraste
-                de, al menos, 4.5:1.
-            </p>
-            <img src="./assets/img/sogo.jpg" alt="">
-        </section>
+    <section class="menu__accesibilidad">
+        <div class="menu__container">
+            <label for=""> Modo claro/oscuro
+                <input type="checkbox" id="modeToggle">
+            </label>
 
+            <label for="gray-scale-checkbox" class="checkbox-label">
+                Activar Escala de Grises
+                <input type="checkbox" id="gray-scale-checkbox" class="checkbox">
+            </label>
+        </div>
+    </section>
 
-        <script src="./assets/js/script.js"></script>
-    </body>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

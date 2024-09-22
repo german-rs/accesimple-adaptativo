@@ -8,12 +8,13 @@
 
 El propósito de los experimentos es desarrollar finalmente un plugin que ayude a las personas y empresas a optimizar la accesibilidad de sus sitios web, inspirado en soluciones como [Userway](https://userway.org/). Esta herramienta brindará una experiencia de navegación más inclusiva y accesible, poniendo la información al alcance de todos, sin importar sus habilidades.
 
-|Experimentos realizados | Descripción|
-|------------------------|------------|
-|Experimento 1| Menú de accesibilidad    |
-|Experimento 2| Modificar tamaños de fuente |
-|Experimento 3| Claro-Oscuro y escala de grises |
-|Experimento 4| Navegación operable por teclado |
+|Experimentos realizados | Descripción| A solucionar|
+|------------------------|------------|-------------|
+|Experimento 1| Menú de accesibilidad    | |
+|Experimento 2| Modificar tamaños de fuente | |
+|Experimento 3| Claro-Oscuro y escala de grises |Menú Acc. pierde propiedades de ubicación | 
+|Experimento 4| Navegación operable por teclado | |
+|Experimento 5| Cambio de fuente a Open Dyslexic | |
 
 A continuación se presentan las siguientes herramientas, junto a sus funcionalidades principales.
 
@@ -28,9 +29,9 @@ A continuación se presentan las siguientes herramientas, junto a sus funcionali
 - Espaciado de texto: Ligero, moderado, pesado.
 - Detener animaciones.
 - Ocultar imágenes.
-- Apto para dislexia
-    - Cambio de fuente UDF Dyslexia Friendly Font.
-    - Fuentes legibles (sans-serif).
+- ~~Apto para dislexia~~
+    - ~~Cambio de fuente UDF Dyslexia Friendly Font~~.
+    - ~~Fuentes legibles (sans-serif)~~.
 - Cursor: Gran cursor, máscara de lectura, guía de lectura.
 - Estructura de la página: Encabezados, secciones y enlaces.
 - Altura de línea, tres niveles.
@@ -53,7 +54,7 @@ A continuación se presentan las siguientes herramientas, junto a sus funcionali
 - ~~Agrandar texto~~.
 - Aumentar interlineado.
 - Alinear textos (derecha, centro, izquierda).
-- Texto amigable (font-family: "Open-Dyslexic", sans-serif).
+- ~~Texto amigable (font-family: "Open-Dyslexic", sans-serif)~~.
 - Desactivar tooltips.
 
 ### SOGO
@@ -61,7 +62,7 @@ A continuación se presentan las siguientes herramientas, junto a sus funcionali
 - Contraste oscuro.
 - Contraste blanco.
 - Detener movimientos.
-- Tipografía clara (Pasa de la fuente Poppins a Arial, sans-serif).
+- ~~Tipografía clara (Pasa de la fuente Poppins a Arial, sans-serif)~~.
 - Subrayar enlaces.
 - ~~Modificar tamaño de las fuentes~~.
 - Opción deshabilitar accesibilidad. 

@@ -48,6 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
           localStorage.setItem('darkMode', 'disabled');
         }
     });
+
+    
 });
 
 
@@ -63,7 +65,7 @@ const casillaEscalaDeGris = document.getElementById('gray-scale-checkbox');
 const body = document.body;
 
 // Función que alterna el filtro de escala de grises en el sitio web
-function alternarEscalaDeGris() {
+const alternarEscalaDeGris = () => {
   
   // Si la casilla de verificación está marcada (activada), añade la clase 'gray-scale' al <body>
   if (casillaEscalaDeGris.checked) {

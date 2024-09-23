@@ -15,6 +15,7 @@ El propósito de los experimentos es desarrollar finalmente un plugin que ayude 
 |Experimento 3| Claro-Oscuro y escala de grises |Menú Acc. pierde propiedades de ubicación | 
 |Experimento 4| Navegación operable por teclado | |
 |Experimento 5| Cambio de fuente a Open Dyslexic | |
+|Experimento 6| Alternar tamaño del cursor | |
 
 A continuación se presentan las siguientes herramientas, junto a sus funcionalidades principales.
 
@@ -32,7 +33,7 @@ A continuación se presentan las siguientes herramientas, junto a sus funcionali
 - ~~Apto para dislexia~~
     - ~~Cambio de fuente UDF Dyslexia Friendly Font~~.
     - ~~Fuentes legibles (sans-serif)~~.
-- Cursor: Gran cursor, máscara de lectura, guía de lectura.
+- ~~Cursor: Gran cursor~~, máscara de lectura, guía de lectura.
 - Estructura de la página: Encabezados, secciones y enlaces.
 - Altura de línea, tres niveles.
 - Texto alineado: Izquierda, derecha, centro, justificado.
@@ -42,7 +43,7 @@ A continuación se presentan las siguientes herramientas, junto a sus funcionali
 ### Accesibility
 
 - Habilitar lectura (de pantalla).
-- Agrandar cursor.
+- ~~Agrandar cursor.~~
 - Resaltar link.
 - Modo daltónico: 
     - Daltonismo

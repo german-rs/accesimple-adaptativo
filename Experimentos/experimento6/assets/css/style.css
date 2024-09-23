@@ -1,0 +1,68 @@
+/* 
+  Experimento 6.
+    - Alternar tamaño del cursor.
+*/
+
+
+body {
+  border: 1px dashed black;
+  font-family: 'Courier New', Courier, monospace;
+
+  /*Cursor inicial */
+  cursor: default;  
+}
+
+/* Usa un cursor grande estándar */
+.large-cursor {
+    cursor: url("../img/cursor.png"), auto; 
+}
+
+ /* Aplica el cursor personalizado también aquí */
+.large-cursor a, .large-cursor button {
+  cursor: url("../img/cursor.png"), auto;
+}
+
+.componente__accesibilidad{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.btn__accesibilidad{
+  padding: 1em;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: 700;
+  background: linear-gradient(to right, #439cfb, #f187fb);
+  transition: background 1s ease-in-out;
+}
+
+.btn__accesibilidad:hover{
+  background: linear-gradient(to left bottom, #439cfb, #f187fb);
+}
+
+.principal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.seccion{
+  border: 1px dashed black;
+  width: 80%;
+  height: auto;
+  padding: 2em;
+  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccion__texto{
+  max-width: 60ch;
+}

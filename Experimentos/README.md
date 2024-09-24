@@ -10,9 +10,9 @@ El propósito de los experimentos es desarrollar finalmente un plugin que ayude 
 
 |Experimentos realizados | Descripción| A solucionar|
 |------------------------|------------|-------------|
-|Experimento 1| Menú de accesibilidad    | |
+|Experimento 1| Menú de accesibilidad    | Mejorar UI |
 |Experimento 2| Modificar tamaños de fuente | |
-|Experimento 3| Claro-Oscuro y escala de grises |Menú Acc. pierde propiedades de ubicación | 
+|Experimento 3| Claro-Oscuro y escala de grises | | 
 |Experimento 4| Navegación operable por teclado | |
 |Experimento 5| Cambio de fuente a Open Dyslexic | |
 |Experimento 6| Alternar tamaño del cursor | |

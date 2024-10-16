@@ -1,0 +1,69 @@
+<!-- 
+    Experimento 8.
+    - Lectura de elementos HTML.
+    - Tanto UserWay como Accesibility utilizan la lectura de pantalla
+    o lectura de página.
+    - Para este experimento se utilizó la API de JavaScript Web Speech.
+    - Enlace importante:
+        - https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lector de párrafo</title>
+</head>
+
+<body>
+    <header>
+        <h1>Síntesis de voz en el navegador</h1>
+        <h2>API de JavaScript Web Speech</h2>
+    </header>
+    <main>
+        <section>
+            <!-- Ejemplo 1.  -->
+            <article>
+                <h3>Ejemplo 1.</h3>
+                <p class="texto">
+                    La Accesibilidad web es una oportunidad para conseguir que el mayor 
+                    número posible de personas puedan percibir, comprender y operar nuestras
+                    webs o aplicaciones en distintos tipos de dispositivos. 
+                </p>
+                <button class="btnActivarLectura">Leer texto</button>
+            </article>
+            <hr>
+            <!-- Ejemplo 2.  -->
+            <article>
+                <h3>Ejemplo 2.</h3>
+                <h4>Activación de Síntesis de voz</h4>
+                <p class="ejemplo2__texto" >Este texto se lee cuando se activa la casilla de verificación.</p> 
+                <div>
+                    <label>
+                        <input type="checkbox" id="activarLectura" aria-label="Activar lectura"> Activar síntesis de voz
+                    </label>
+                </div>   
+            </article>
+            <hr>
+
+            <!-- Ejemplo 3.  -->
+            <article>
+                <h3>Ejemplo 3.</h3>
+                <h4>Síntesis de voz y lectura de elementos html</h4>
+
+                <label>
+                    <input type="checkbox" id="activarLecturaE3" aria-label="Activar lectura"> Activar lectura
+                </label>
+            
+                <p class="textoE3" tabindex="0">Este es el primer párrafo que será leído.</p>
+                <p class="textoE3" tabindex="0">Este es el segundo párrafo que será leído.</p>
+                <p class="textoE3" tabindex="0">Este es el tercer párrafo que será leído.</p>
+            </article>
+
+        </section>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

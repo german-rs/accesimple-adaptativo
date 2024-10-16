@@ -17,6 +17,7 @@ El propósito de los experimentos es desarrollar finalmente un plugin que ayude 
 |Experimento 5| Cambio de fuente a Open Dyslexic | |
 |Experimento 6| Alternar tamaño del cursor | |
 |Experimento 7| Resaltar enlaces| |
+|Experimento 8| Síntesis de voz| En proceso |
 
 A continuación se presentan las siguientes herramientas, junto a sus funcionalidades principales.
 

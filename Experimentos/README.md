@@ -16,6 +16,7 @@ El propósito de los experimentos es desarrollar finalmente un plugin que ayude 
 |Experimento 4| Navegación operable por teclado | |
 |Experimento 5| Cambio de fuente a Open Dyslexic | |
 |Experimento 6| Alternar tamaño del cursor | |
+|Experimento 7| Resaltar enlaces| |
 
 A continuación se presentan las siguientes herramientas, junto a sus funcionalidades principales.
 
@@ -25,7 +26,7 @@ A continuación se presentan las siguientes herramientas, junto a sus funcionali
 - Contraste.
     - Invertido, oscuro y de luz.
 - Contraste inteligente (indeterminado).
-- Resaltar enlaces.
+- ~~Resaltar enlaces~~.
 - ~~Agrandar textos (4 niveles)~~.
 - Espaciado de texto: Ligero, moderado, pesado.
 - Detener animaciones.
@@ -44,7 +45,7 @@ A continuación se presentan las siguientes herramientas, junto a sus funcionali
 
 - Habilitar lectura (de pantalla).
 - ~~Agrandar cursor.~~
-- Resaltar link.
+- ~~Resaltar link~~.
 - Modo daltónico: 
     - Daltonismo
     - Daltonismo 2 
@@ -64,6 +65,6 @@ A continuación se presentan las siguientes herramientas, junto a sus funcionali
 - Contraste blanco.
 - Detener movimientos.
 - ~~Tipografía clara (Pasa de la fuente Poppins a Arial, sans-serif)~~.
-- Subrayar enlaces.
+- ~~Subrayar enlaces~~.
 - ~~Modificar tamaño de las fuentes~~.
 - Opción deshabilitar accesibilidad. 

@@ -1,4 +1,10 @@
-
+/* 
+    Experimento 7.
+    - Resaltar enlaces.
+    - UserWay y Accesibility destancan los enlaces con un fondo negro 
+      y texto amarillo, por otro lado, SOGO solo añade la línea para
+      de subrayado.
+*/
 
 const btnAccesibilidad = document.querySelector('.btn__accesibilidad');
 const enlaces = document.querySelectorAll('a');

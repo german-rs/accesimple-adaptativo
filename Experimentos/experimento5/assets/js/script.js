@@ -1,3 +1,9 @@
+/*
+    Experimento 5.
+        - Cambiar fuente a Open Dyslexic. 
+*/
+
+
 // Obtener el botón y el body
 const alternarFuente = document.getElementById('alternarFuente');
 const body = document.body;

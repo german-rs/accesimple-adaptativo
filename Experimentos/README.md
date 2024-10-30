@@ -8,21 +8,26 @@
 
 El propósito de los experimentos es desarrollar finalmente un plugin que ayude a las personas y empresas a optimizar la accesibilidad de sus sitios web, inspirado en soluciones como [Userway](https://userway.org/). Esta herramienta brindará una experiencia de navegación más inclusiva y accesible, poniendo la información al alcance de todos, sin importar sus habilidades.
 
-|Experimentos realizados | Descripción| A solucionar|
+|Experimentos realizados | Descripción| Estado |
 |------------------------|------------|-------------|
-|Experimento 1| Menú de accesibilidad    | Mejorar UI |
-|Experimento 2| Modificar tamaños de fuente | |
-|Experimento 3| Claro-Oscuro y escala de grises | | 
-|Experimento 4| Navegación operable por teclado | |
-|Experimento 5| Cambio de fuente a Open Dyslexic | |
-|Experimento 6| Alternar tamaño del cursor | |
-|Experimento 7| Resaltar enlaces| |
-|Experimento 8| Síntesis de voz| En proceso |
+|Experimento 1| Menú de accesibilidad    | Implementado |
+|Experimento 2| Modificar tamaños de fuente | Implementado |
+|Experimento 3| Claro-Oscuro y escala de grises | Implementado | 
+|Experimento 4| Navegación operable por teclado | Implementado|
+|Experimento 5| Cambio de fuente a Open Dyslexic | Implementado|
+|Experimento 6| Alternar tamaño del cursor | Implementado|
+|Experimento 7| Resaltar enlaces| Implementado|
+|Experimento 8| Síntesis de voz| Implementado |
+
+La implementación se esta llevando a cabo en la siguiente 👉 [página](https://portafolio-1-rust.vercel.app/).
+
+![impementacion de accesibilidad](./imagenes/implementacion.jpg)
+
 
 A continuación se presentan las siguientes herramientas, junto a sus funcionalidades principales.
 
 ### UserWay
-- Leer página.
+- ~~Leer página~~.
     - Ritmo de lectura: normal, rápido, despacio.
 - Contraste.
     - Invertido, oscuro y de luz.
@@ -44,7 +49,7 @@ A continuación se presentan las siguientes herramientas, junto a sus funcionali
 
 ### Accesibility
 
-- Habilitar lectura (de pantalla).
+- ~~Habilitar lectura (de pantalla)~~.
 - ~~Agrandar cursor.~~
 - ~~Resaltar link~~.
 - Modo daltónico: 

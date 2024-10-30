@@ -32,30 +32,42 @@ btnActivarLectura.addEventListener('click', () =>{
 
 //--------------- Ejemplo 2 ----------------
 
-// Seleccionamos el checkbox y el párrafo que queremos leer.
-const checkbox = document.getElementById('activarLectura');
-const elementoALeer = document.querySelector('.ejemplo2__texto').innerText;
+// Seleccionamos el checkbox
+const casillaVerificacion = document.querySelector('.activarLectura');
 
-// Función para leer el texto.
-function leerTexto() {
-    // Verificamos si el checkbox está seleccionado.
-    if (checkbox.checked) {
-        // Creamos una instancia de SpeechSynthesisUtterance con el texto a leer.
-        const pronunciacion = new SpeechSynthesisUtterance(elementoALeer);
-        
-        // Configuraciones de voz.
-        pronunciacion.lang = 'es-ES'; // Idioma español.
-        pronunciacion.pitch = 1; // Tono de voz.
-        pronunciacion.rate = 1; // Velocidad de voz.
+// Función para manejar la síntesis de voz.
+function leerTexto(texto) {
+    // Cancelamos cualquier síntesis en curso antes de comenzar una nueva.
+    window.speechSynthesis.cancel();
 
-        // Llamamos a la síntesis de voz para leer el texto.
-        window.speechSynthesis.speak(pronunciacion);
-    }
+    // Creamos una instancia de SpeechSynthesisUtterance con el texto a leer.
+    const pronunciacion = new SpeechSynthesisUtterance(texto);
+
+    // Configuraciones de voz.
+    pronunciacion.lang = 'es-ES'; // Idioma español.
+    pronunciacion.pitch = 1; // Tono de voz.
+    pronunciacion.rate = 1; // Velocidad de voz.
+
+    // Llamamos a la síntesis de voz para leer el texto.
+    window.speechSynthesis.speak(pronunciacion);
 }
 
-// Agregamos event listeners para que lea el texto cuando se hace clic o se enfoca el checkbox.
-checkbox.addEventListener('click', leerTexto);
-checkbox.addEventListener('focus', leerTexto);
+// Agregamos event listener para que lea el texto cuando se hace clic.
+casillaVerificacion.addEventListener('change', () => {
+    // Obtenemos el texto del párrafo utilizando textContent.
+    const elementoALeer = document.querySelector('.ejemplo2__texto').textContent;
+
+    // Verificamos si el checkbox está seleccionado.
+    if (casillaVerificacion.checked && elementoALeer.trim() !== '') {
+        leerTexto(elementoALeer);
+    } else {
+        // Si se desactiva la casilla o no hay texto, cancelamos la síntesis de voz.
+        window.speechSynthesis.cancel();
+    }
+});
+
+
+
 
 
 

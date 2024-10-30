@@ -43,5 +43,3 @@ PDFs:
 - [Accesibilidad Web en Chile, Guía técnica para la implementación de sitios web accesibles](https://kitdigital.gob.cl/archivos/insumos/nuevos/Manual%20Accesibilidad%20Web.pdf)
 - [Requisitos básicos para un sitio web accesible](/documentos/Requisitos-basicos.pdf)
 - [Informativo técnico de accesibilidad](/documentos/InformativoTecnico.pdf)
-
-

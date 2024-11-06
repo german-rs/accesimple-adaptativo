@@ -21,7 +21,7 @@ El propósito de los experimentos es desarrollar finalmente un plugin que ayude 
 
 La implementación se esta llevando a cabo en la siguiente 👉 [página](https://portafolio-1-rust.vercel.app/).
 
-![impementacion de accesibilidad](../accesibilidad/Experimentos/imagenes/implementacion.jpg)
+![impementacion de accesibilidad](./Experimentos/imagenes/implementacion.jpg)
 
 
 A continuación se presentan las siguientes herramientas, junto a sus funcionalidades principales.

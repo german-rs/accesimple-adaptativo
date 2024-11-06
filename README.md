@@ -1,12 +1,12 @@
-# Experimentos
-
-## Complemento adaptativo de accesibilidad Web 
+# Complemento adaptativo de accesibilidad Web 
 
 ![logo](./Experimentos/imagenes/logo.webp)
 
 ### Descripción:
 
 El propósito de los experimentos es desarrollar finalmente un plugin que ayude a las personas y empresas a optimizar la accesibilidad de sus sitios web, inspirado en soluciones como [Userway](https://userway.org/). Esta herramienta brindará una experiencia de navegación más inclusiva y accesible, poniendo la información al alcance de todos, sin importar sus habilidades.
+
+### Experimentos:
 
 |Experimentos realizados | Descripción| Estado |
 |------------------------|------------|-------------|
@@ -19,7 +19,7 @@ El propósito de los experimentos es desarrollar finalmente un plugin que ayude 
 |[Experimento 7](https://github.com/german-rs/accesibilidad/tree/main/Experimentos/experimento7)| Resaltar enlaces| Implementado|
 |[Experimento 8](https://github.com/german-rs/accesibilidad/tree/main/Experimentos/experimento8)| Síntesis de voz| Implementado |
 
-La implementación se esta llevando a cabo en la siguiente 👉 [página](https://portafolio-1-rust.vercel.app/).
+#### La implementación se esta llevando a cabo en la siguiente 👉 [página](https://portafolio-1-rust.vercel.app/).
 
 ![impementacion de accesibilidad](./Experimentos/imagenes/implementacion.jpg)
 

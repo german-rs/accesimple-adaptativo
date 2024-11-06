@@ -1,76 +1,45 @@
-# Experimentos
+# Accesibilidad Web :wheelchair: 
 
-## Complemento adaptativo de accesibilidad Web 
+Información a tener presente.
 
-![logo](./imagenes/logo.webp)
+Las Web Content Accessibility Guidelines (WCAG), o Directrices de Accesibilidad para el Contenido Web, son un conjunto de pautas internacionales desarrolladas por el Consorcio World Wide Web (W3C) para garantizar que los sitios web y aplicaciones web sean accesibles a la mayor cantidad de personas posible, incluidas aquellas con discapacidades.
 
-### Descripción:
+- [Enlace sitio oficial.](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- [WCAG en español](http://www.sidar.org/traducciones/wcag20/es/)
 
-El propósito de los experimentos es desarrollar finalmente un plugin que ayude a las personas y empresas a optimizar la accesibilidad de sus sitios web, inspirado en soluciones como [Userway](https://userway.org/). Esta herramienta brindará una experiencia de navegación más inclusiva y accesible, poniendo la información al alcance de todos, sin importar sus habilidades.
+Información de la Universidad de Alicante:
 
-|Experimentos realizados | Descripción| Estado |
-|------------------------|------------|-------------|
-|Experimento 1| Menú de accesibilidad    | Implementado |
-|Experimento 2| Modificar tamaños de fuente | Implementado |
-|Experimento 3| Claro-Oscuro y escala de grises | Implementado | 
-|Experimento 4| Navegación operable por teclado | Implementado|
-|Experimento 5| Cambio de fuente a Open Dyslexic | Implementado|
-|Experimento 6| Alternar tamaño del cursor | Implementado|
-|Experimento 7| Resaltar enlaces| Implementado|
-|Experimento 8| Síntesis de voz| Implementado |
+- [Mapa Jerárquico](https://accesibilidadweb.dlsi.ua.es/?menu=mapa-sitio)
+- [Mapa Alfabético](https://accesibilidadweb.dlsi.ua.es/?menu=mapa-alfabetico)
 
-La implementación se esta llevando a cabo en la siguiente 👉 [página](https://portafolio-1-rust.vercel.app/).
+Creando un sitio web accesible, información de la [W3C](https://www.w3.org/).
+- [Enlace](https://www.w3.org/WAI/gettingstarted/Overview.html.es) 
+- [Sitio para hispano parlantes](https://chapters.w3.org/hispano/)
 
-![impementacion de accesibilidad](./imagenes/implementacion.jpg)
+Lineamiento de Google Material Design 3
+- [Enlace](https://m3.material.io/foundations/overview/principles)
 
+Microsoft Inclusive Design
+- [Presiona para ir al sitio](https://inclusive.microsoft.design) 
 
-A continuación se presentan las siguientes herramientas, junto a sus funcionalidades principales.
+Validadores y herramientas para consultorías de accesibilidad y usabilidad web.
+- [Enlace](https://www.usableyaccesible.com/recurso_misvalidadores.php)
 
-### UserWay
-- ~~Leer página~~.
-    - Ritmo de lectura: normal, rápido, despacio.
-- Contraste.
-    - Invertido, oscuro y de luz.
-- Contraste inteligente (indeterminado).
-- ~~Resaltar enlaces~~.
-- ~~Agrandar textos (4 niveles)~~.
-- Espaciado de texto: Ligero, moderado, pesado.
-- Detener animaciones.
-- Ocultar imágenes.
-- ~~Apto para dislexia~~
-    - ~~Cambio de fuente UDF Dyslexia Friendly Font~~.
-    - ~~Fuentes legibles (sans-serif)~~.
-- ~~Cursor: Gran cursor~~, máscara de lectura, guía de lectura.
-- Estructura de la página: Encabezados, secciones y enlaces.
-- Altura de línea, tres niveles.
-- Texto alineado: Izquierda, derecha, centro, justificado.
-- Restablecer todas la configuraciones de accesibilidad.
-- Mover widget: izquierda, derecha.
+Herramientas:
+- [Photosensitive Epilepsy Analysis Tool (PEAT)](https://trace.umd.edu/peat/)
+- [NonVisual Desktop Access](https://sourceforge.net/projects/nvda/)
+- [Colour Contrast Analyzer (CCA)](https://www.tpgi.com/color-contrast-checker/)
+- [PageSpeed Insights de Google](https://pagespeed.web.dev/)
 
-### Accesibility
+Plugin y complemento para sitios:
 
-- ~~Habilitar lectura (de pantalla)~~.
-- ~~Agrandar cursor.~~
-- ~~Resaltar link~~.
-- Modo daltónico: 
-    - Daltonismo
-    - Daltonismo 2 
-    - Daltonismo 3 
-    - Alto contraste 
-    - Alto contraste blanco
-    - Alternar colores
-- ~~Agrandar texto~~.
-- Aumentar interlineado.
-- Alinear textos (derecha, centro, izquierda).
-- ~~Texto amigable (font-family: "Open-Dyslexic", sans-serif)~~.
-- Desactivar tooltips.
+- [SOGO](https://pluginsmarket.com/downloads/accessibility-plugin/)  
+- [Userway](https://userway.org/es/)
+- [Accessibility](https://accessibility.cl/)
 
-### SOGO
-- ~~Blanco y negro~~.
-- Contraste oscuro.
-- Contraste blanco.
-- Detener movimientos.
-- ~~Tipografía clara (Pasa de la fuente Poppins a Arial, sans-serif)~~.
-- ~~Subrayar enlaces~~.
-- ~~Modificar tamaño de las fuentes~~.
-- Opción deshabilitar accesibilidad. 
+Lineamientos de SENADIS (Servicio Nacional de Discapacidad) Chile:
+
+PDFs:
+- [Accesibilidad Web en Chile, Guía técnica para la implementación de sitios web accesibles](https://kitdigital.gob.cl/archivos/insumos/nuevos/Manual%20Accesibilidad%20Web.pdf)
+- [Requisitos básicos para un sitio web accesible](/documentos/Requisitos-basicos.pdf)
+- [Informativo técnico de accesibilidad](/documentos/InformativoTecnico.pdf)

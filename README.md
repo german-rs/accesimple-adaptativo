@@ -2,7 +2,7 @@
 
 ## Complemento adaptativo de accesibilidad Web 
 
-![logo](../accesibilidad/Experimentos/imagenes/logo.webp)
+![logo](./Experimentos/imagenes/logo.webp)
 
 ### Descripción:
 

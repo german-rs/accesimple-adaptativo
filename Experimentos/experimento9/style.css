@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6; /* Interlineado predeterminado */
+}
+
+p{
+    font-size: 1em;
+}
+
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+.interlineado-aumentado {
+    line-height: 2; /* Interlineado ampliado */
+}
+
+button {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}

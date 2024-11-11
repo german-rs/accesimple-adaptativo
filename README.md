@@ -18,6 +18,7 @@ El propósito de los experimentos es desarrollar finalmente un plugin que ayude 
 |[Experimento 6](https://github.com/german-rs/accesibilidad/tree/main/Experimentos/experimento6)| Alternar tamaño del cursor | Implementado|
 |[Experimento 7](https://github.com/german-rs/accesibilidad/tree/main/Experimentos/experimento7)| Resaltar enlaces| Implementado|
 |[Experimento 8](https://github.com/german-rs/accesibilidad/tree/main/Experimentos/experimento8)| Síntesis de voz| Implementado |
+|[Experimento 9](https://github.com/german-rs/accesibilidad/tree/main/Experimentos/experimento9)| Aumentar interlineado| En proceso |
 
 #### La implementación se esta llevando a cabo en la siguiente 👉 [página](https://portafolio-1-rust.vercel.app/).
 
@@ -60,7 +61,7 @@ A continuación se presentan las siguientes herramientas, junto a sus funcionali
     - Alto contraste blanco
     - Alternar colores
 - ~~Agrandar texto~~.
-- Aumentar interlineado.
+- ~~Aumentar interlineado~~.
 - Alinear textos (derecha, centro, izquierda).
 - ~~Texto amigable (font-family: "Open-Dyslexic", sans-serif)~~.
 - Desactivar tooltips.

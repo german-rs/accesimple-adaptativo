@@ -43,7 +43,7 @@ A continuación se presentan las siguientes herramientas, junto a sus funcionali
     - ~~Fuentes legibles (sans-serif)~~.
 - ~~Cursor: Gran cursor~~, máscara de lectura, guía de lectura.
 - Estructura de la página: Encabezados, secciones y enlaces.
-- Altura de línea, tres niveles.
+- ~~Altura de línea, tres niveles~~.
 - Texto alineado: Izquierda, derecha, centro, justificado.
 - Restablecer todas la configuraciones de accesibilidad.
 - Mover widget: izquierda, derecha.

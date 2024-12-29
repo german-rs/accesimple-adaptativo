@@ -25,7 +25,7 @@ El propósito de los experimentos es desarrollar finalmente un plugin que ayude 
 ![impementacion de accesibilidad](./Experimentos/imagenes/implementacion.jpg)
 
 
-A continuación se presentan las siguientes herramientas, junto a sus funcionalidades principales.
+## Los experimentos se basaron en las siguientes herramientas y sus principales funciones:
 
 ### UserWay
 - ~~Leer página~~.

@@ -1,18 +1,14 @@
 # Accesimple Adaptativo 
 
-### Versión 1.0
-
 ![logo](./Experimentos/imagenes/logo.webp)
 
 
-
 ![License](https://img.shields.io/github/license/tuusuario/accessibility-plugin)
-![Version](https://img.shields.io/github/v/release/tuusuario/accessibility-plugin)
-![Issues](https://img.shields.io/github/issues/tuusuario/accessibility-plugin)
+
 
 ## Introducción
 
-**Accessimple Adaptativo** es un widget de accesibilidad de código abierto que proporciona funciones esenciales para mejorar la experiencia de navegación de los usuarios con discapacidad. A diferencia de otras soluciones, este plugin se adapta automáticamente al diseño de la página web en la que se implementa, respetando su esquema de colores y estilos.
+**Accessimple Adaptativo** es un widget de accesibilidad de código abierto que proporciona funciones esenciales para mejorar la experiencia de navegación de los usuarios con discapacidad. A diferencia de otras soluciones, este plugin se ofrece como una solución adapta al diseño de la página web en la que se implementa, respetando su esquema de colores y estilos.
 
 ## Características
 

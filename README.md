@@ -1,10 +1,36 @@
-# Complemento adaptativo de accesibilidad Web 
+# Accesimple Adaptativo 
+
+### Versión 1.0
 
 ![logo](./Experimentos/imagenes/logo.webp)
 
-### Descripción:
 
-El propósito de los experimentos es desarrollar finalmente un plugin que ayude a las personas y empresas a optimizar la accesibilidad de sus sitios web, inspirado en soluciones como [Userway](https://userway.org/). Esta herramienta brindará una experiencia de navegación más inclusiva y accesible, poniendo la información al alcance de todos, sin importar sus habilidades.
+
+![License](https://img.shields.io/github/license/tuusuario/accessibility-plugin)
+![Version](https://img.shields.io/github/v/release/tuusuario/accessibility-plugin)
+![Issues](https://img.shields.io/github/issues/tuusuario/accessibility-plugin)
+
+## Introducción
+
+**Accessimple Adaptativo** es un widget de accesibilidad de código abierto que proporciona funciones esenciales para mejorar la experiencia de navegación de los usuarios con discapacidad. A diferencia de otras soluciones, este plugin se adapta automáticamente al diseño de la página web en la que se implementa, respetando su esquema de colores y estilos.
+
+## Características
+
+Funcionalidades de accesibilidad:
+  - Ajuste de tamaño de fuente.
+  - Escala de grises.
+  - Ampliar el cursor.
+  - Adaptado para dislexia.
+  - Lectura de página.
+  - Resaltado de enlaces.
+  - El sitio se optimizo para navegación con teclado.
+  - Eliminación de animaciones para reducir distracciones.
+- Fácil integración con cualquier sitio web.
+- Totalmente personalizable.
+- Código abierto y extensible.
+
+
+El propósito de los experimentos fue desarrollar finalmente un plugin que ayude a las personas y empresas a optimizar la accesibilidad de sus sitios web, inspirado en soluciones como [Userway](https://userway.org/). Esta herramienta brinda una experiencia de navegación más inclusiva y accesible, poniendo la información al alcance de todos, sin importar sus habilidades.
 
 ### Experimentos:
 
@@ -23,55 +49,3 @@ El propósito de los experimentos es desarrollar finalmente un plugin que ayude 
 #### La implementación se esta llevando a cabo en la siguiente 👉 [página](https://portafolio-1-rust.vercel.app/).
 
 ![impementacion de accesibilidad](./Experimentos/imagenes/implementacion.jpg)
-
-
-## Los experimentos se basaron en las siguientes herramientas y sus principales funciones:
-
-### UserWay
-- ~~Leer página~~.
-    - Ritmo de lectura: normal, rápido, despacio.
-- Contraste.
-    - Invertido, oscuro y de luz.
-- Contraste inteligente (indeterminado).
-- ~~Resaltar enlaces~~.
-- ~~Agrandar textos (4 niveles)~~.
-- Espaciado de texto: Ligero, moderado, pesado.
-- Detener animaciones.
-- Ocultar imágenes.
-- ~~Apto para dislexia~~
-    - ~~Cambio de fuente UDF Dyslexia Friendly Font~~.
-    - ~~Fuentes legibles (sans-serif)~~.
-- ~~Cursor: Gran cursor~~, máscara de lectura, guía de lectura.
-- Estructura de la página: Encabezados, secciones y enlaces.
-- ~~Altura de línea, tres niveles~~.
-- Texto alineado: Izquierda, derecha, centro, justificado.
-- Restablecer todas la configuraciones de accesibilidad.
-- Mover widget: izquierda, derecha.
-
-### Accesibility
-
-- ~~Habilitar lectura (de pantalla)~~.
-- ~~Agrandar cursor.~~
-- ~~Resaltar link~~.
-- Modo daltónico: 
-    - Daltonismo
-    - Daltonismo 2 
-    - Daltonismo 3 
-    - Alto contraste 
-    - Alto contraste blanco
-    - Alternar colores
-- ~~Agrandar texto~~.
-- ~~Aumentar interlineado~~.
-- Alinear textos (derecha, centro, izquierda).
-- ~~Texto amigable (font-family: "Open-Dyslexic", sans-serif)~~.
-- Desactivar tooltips.
-
-### SOGO
-- ~~Blanco y negro~~.
-- Contraste oscuro.
-- Contraste blanco.
-- Detener movimientos.
-- ~~Tipografía clara (Pasa de la fuente Poppins a Arial, sans-serif)~~.
-- ~~Subrayar enlaces~~.
-- ~~Modificar tamaño de las fuentes~~.
-- Opción deshabilitar accesibilidad. 

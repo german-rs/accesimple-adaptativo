@@ -1,6 +1,6 @@
 # Accesibilidad Web :wheelchair: 
 
-Información a tener presente.
+Información General.
 
 Las Web Content Accessibility Guidelines (WCAG), o Directrices de Accesibilidad para el Contenido Web, son un conjunto de pautas internacionales desarrolladas por el Consorcio World Wide Web (W3C) para garantizar que los sitios web y aplicaciones web sean accesibles a la mayor cantidad de personas posible, incluidas aquellas con discapacidades.
 

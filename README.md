@@ -3,7 +3,7 @@
 ![logo](./Experimentos/imagenes/logo.webp)
 
 
-![License](https://img.shields.io/github/license/tuusuario/accessibility-plugin)
+![License](https://img.shields.io/github/license/german-rs/accesimple-adaptativo)
 
 
 ## Introducción
@@ -19,16 +19,21 @@ Funcionalidades de accesibilidad:
   - Adaptado para dislexia.
   - Lectura de página.
   - Resaltado de enlaces.
+  - Menú de accesibilidad responsivo.
   - El sitio se optimizo para navegación con teclado.
   - Eliminación de animaciones para reducir distracciones.
-- Fácil integración con cualquier sitio web.
-- Totalmente personalizable.
-- Código abierto y extensible.
 
+## Implementación 
 
-El propósito de los experimentos fue desarrollar finalmente un plugin que ayude a las personas y empresas a optimizar la accesibilidad de sus sitios web, inspirado en soluciones como [Userway](https://userway.org/). Esta herramienta brinda una experiencia de navegación más inclusiva y accesible, poniendo la información al alcance de todos, sin importar sus habilidades.
+- La implementacion de **accesimple adaptativo** se esta realizando en la siguiente 👉 [página](https://portafolio-1-rust.vercel.app/).
+
+![impementacion de accesibilidad](./Experimentos/imagenes/implementacion.jpg)
+
 
 ### Experimentos:
+
+El propósito de los experimentos fue para desarrollar el prototipo que finalmente se convirtio en el widget. 
+
 
 |Experimentos realizados | Descripción| Estado |
 |------------------------|------------|-------------|
@@ -42,6 +47,4 @@ El propósito de los experimentos fue desarrollar finalmente un plugin que ayude
 |[Experimento 8](https://github.com/german-rs/accesibilidad/tree/main/Experimentos/experimento8)| Síntesis de voz| Implementado |
 |[Experimento 9](https://github.com/german-rs/accesibilidad/tree/main/Experimentos/experimento9)| Aumentar interlineado| En proceso |
 
-#### La implementación se esta llevando a cabo en la siguiente 👉 [página](https://portafolio-1-rust.vercel.app/).
 
-![impementacion de accesibilidad](./Experimentos/imagenes/implementacion.jpg)

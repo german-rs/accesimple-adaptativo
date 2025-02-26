@@ -27,7 +27,7 @@ Funcionalidades de accesibilidad:
 
 - La implementacion de **accesimple adaptativo** se esta realizando en la siguiente 👉 [página](https://portafolio-1-rust.vercel.app/).
 
-![impementacion de accesibilidad](./Experimentos/imagenes/implementacion.jpg)
+![impementacion de accesibilidad](./Experimentos/imagenes/implementacion_accesimple.jpg)
 
 
 ### Experimentos:

@@ -1,10 +1,6 @@
-# Accesimple Adaptativo 
+# Accesimple Adaptativo ![License](https://img.shields.io/github/license/german-rs/accesimple-adaptativo)
 
-![logo](./Experimentos/imagenes/logo.webp)
-
-
-![License](https://img.shields.io/github/license/german-rs/accesimple-adaptativo)
-
+![logo](./Experimentos/imagenes/accesimple-logo.webp)
 
 ## Introducción
 
@@ -22,6 +18,11 @@ Funcionalidades de accesibilidad:
   - Menú de accesibilidad responsivo.
   - El sitio se optimizo para navegación con teclado.
   - Eliminación de animaciones para reducir distracciones.
+
+## Vídeo presentación
+
+[![Ver video](https://img.youtube.com/vi/03h9B-gMbRc/0.jpg)](https://www.youtube.com/watch?v=03h9B-gMbRc)
+
 
 ## Implementación 
 
